@@ -12,12 +12,7 @@ int main() {
         case('*'):
         printf("%d",a*b);
         case('/'):
-        if(b!=0){
-            printf("%d",a/b);
-        }
-        else{
-            printf("error");
-        }
+        printf("%d",a/b);
         default:
         printf("error")
     }
