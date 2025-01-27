@@ -5,13 +5,13 @@ int main() {
     char c;
     scanf("%d%d/n%c",&a,&b,&c);
     switch(c){
-        case('+'):
+        case'+'
         printf("%d",a+b);
-        case('-'):
+        case'-':
         printf("%d",a-b);
-        case('*'):
+        case'*':
         printf("%d",a*b);
-        case('/'):
+        case'/':
         printf("%d",a/b);
         default:
         printf("error")
