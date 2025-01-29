@@ -3,8 +3,8 @@
 int main() {
     int a,b;
     char c;
-    scanf("%d%d %c",&a,&b,&c);
-    switch(a,b,c){
+    scanf("%d %d %c",&a,&b,&c);
+    switch(c){
         case'+':
             printf("%d",a+b);
             break;
@@ -23,7 +23,7 @@ int main() {
         }
             break;
         default:
-            printf("error")
+            printf("error");
     }
     return 0;
 }
