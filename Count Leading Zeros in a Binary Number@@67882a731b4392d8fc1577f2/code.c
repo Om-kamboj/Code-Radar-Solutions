@@ -11,6 +11,6 @@ int main() {
         i++;
         n = n>>1;
     }
-    printf("%d",32-i);
+    printf("%d",31-i);
     return 0;
 }
