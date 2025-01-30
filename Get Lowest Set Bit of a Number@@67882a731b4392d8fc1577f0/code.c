@@ -3,7 +3,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    for(int i = 1;(a&1)==0;i++){
+    int i;
+    for(i = 1;(a&1)==0;i++){
         a = a>>1;
     }
     printf("%d",i);
