@@ -5,7 +5,6 @@ int main() {
     scanf("%d",&n);
     if(n==0){
         printf("32\n");
-        return 0;
     }
     while(n!=0)
     {
