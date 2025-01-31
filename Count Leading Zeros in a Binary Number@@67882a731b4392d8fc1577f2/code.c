@@ -3,7 +3,7 @@
 int main() {
     unsigned n,i;
     scanf("%u",&n);
-    while(n!=0)
+    while(n!=0){
         i++;
         n = n>>1;
     }
