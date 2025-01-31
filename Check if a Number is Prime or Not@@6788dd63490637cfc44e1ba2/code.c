@@ -5,9 +5,9 @@ int main() {
     int isPrime = 1;
     scanf("%d",&n);
 
-    if(n<=1){
-        printf("Not Prime");
-    }
+    // if(n<=1){
+    //     printf("Not Prime");
+    // }
 
     for(i = 2;i*i<=n;i++){
         if(n%i==0){
