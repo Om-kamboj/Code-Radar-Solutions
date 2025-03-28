@@ -2,13 +2,10 @@
 
 int main() {
     int n, sorted = 1;
-    printf("Enter the number of elements: ");
-    scanf("%d", &n);
-    
+    scanf("%d", &n); 
     int arr[n];
-    printf("Enter the elements: ");
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d ", &arr[i]);
     }
     
     for (int i = 1; i < n; i++) {
