@@ -6,7 +6,7 @@ int main(){
     int arr[n];
     for(int i = 0;i<n;i++){
         scanf("%d ",&arr[i]);
-        if(n<2 || arr[0]==arr[i]){
+        if(n<2){
          printf("-1");
          return 0;
         }
