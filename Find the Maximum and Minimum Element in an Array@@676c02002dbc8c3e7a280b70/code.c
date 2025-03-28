@@ -17,7 +17,7 @@ int main(){
         }
     }
     int max = arr[n-1];
-    int min = arr[n];
-    printf("%d %d",max ,min);
+    int min = arr[0];
+    printf("%d %d",min ,max);
     return 0;
 }
