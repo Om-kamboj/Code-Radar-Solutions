@@ -1,5 +1,5 @@
 #include <stdio.h>
-int sum_of_digits(int arr[],int n){
+int sum_of_digits(int n){
     if(n==0){
         return 0;
     }
@@ -15,6 +15,6 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     for(int i = 0;i<n;i++){
-        printf("%d ",sum_of_digits(arr[i] , n));
+        printf("%d ",sum_of_digits(arr[i]));
     }
 }
