@@ -1,5 +1,5 @@
 #include <stdio.h>
-int maxProduct(int n,int arr[])[
+int maxProduct(int n,int arr[]){
     int product = arr[0] * arr[1];
     for(int i = 0;i<n;i++){
         for(int j = i+1;j<n;j++){
@@ -9,7 +9,7 @@ int maxProduct(int n,int arr[])[
         }
     }
     return product;
-]
+}
 
 int main(){
     int n;
