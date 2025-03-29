@@ -18,7 +18,7 @@ int main(){
     for(int i = 0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int res = product(arr,n);
+    int res = maxProduct(arr,n);
     printf("%d",res);
 
 
