@@ -40,6 +40,8 @@ int main() {
     int second_smallest = find_second_smallest(arr, n);
     if (second_smallest != -1) {
         printf("%d\n", second_smallest);
+    }else{
+        printf("-1");
     }
     
     return 0;
