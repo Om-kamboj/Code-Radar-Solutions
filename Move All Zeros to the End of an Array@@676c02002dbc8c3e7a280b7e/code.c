@@ -1,5 +1,5 @@
 #include <stdio.h>
-void moveZero(int arr[],int i){
+void moveZero(int arr[],int n){
     int index = 0;
     for(int i = 0;i<n;i++){
         if(arr[i]!=0){
