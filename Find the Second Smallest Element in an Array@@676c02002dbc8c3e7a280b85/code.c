@@ -16,7 +16,7 @@ int main(){
             }
         }
     }
-    int second_smallest = arrp[1];
+    int second_smallest = arr[1];
     printf("%d",second_smallest);
 
     return 0;
