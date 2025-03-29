@@ -23,5 +23,5 @@ int main(){
         printf("%d ",arr[i]);
     }
 
-    retutn 0;
+    return 0;
 }
