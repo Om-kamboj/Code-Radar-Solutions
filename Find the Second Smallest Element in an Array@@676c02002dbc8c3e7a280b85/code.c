@@ -29,6 +29,7 @@ int main() {
     scanf("%d", &n);
     
     if (n < 2) {
+        printf("-1");
         return 0;
     }
     
